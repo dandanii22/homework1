@@ -1,0 +1,15 @@
+.nav {
+}
+.nav .gnb {
+  display: flex;
+}
+.nav .gnb li {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav .gnb li a {
+  color: #222;
+  display: block;
+  padding: 10px 60px;
+}

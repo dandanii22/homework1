@@ -1,0 +1,103 @@
+.con3 {
+  position: relative;
+}
+.con3::after {
+  content: "";
+  display: block;
+  width: 43%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  background: #07255d;
+  z-index: -10;
+}
+.con3 .inner {
+  width: 1400px;
+  display: flex;
+  //   justify-content: space-between;
+  align-items: center;
+}
+.con3 .left {
+  position: relative;
+  width: 480px;
+  height: 600px;
+  color: #fff;
+  margin-top: 300px;
+  margin-right: 400px;
+}
+.con3 .left > div {
+  position: absolute;
+  left: 50%;
+  width: 600px;
+}
+.con3 .left h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.con3 .left h2 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 500;
+}
+.con3 .left h2::after {
+  content: "";
+  display: block;
+  width: 110px;
+  height: 1px;
+  background: #fff;
+  margin: 20px 0;
+}
+.con3 .left h2 + p {
+  word-break: keep-all;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.con3 ul {
+  width: 680px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.con3 ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+.con3 ul li a {
+}
+.con3 ul li a div {
+  width: 275px;
+  height: 175px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.con3 ul li a div img {
+  width: 372px;
+  height: 240px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.con3 ul li a div img:hover {
+  transform: scale(1.03);
+  transition: 0.8s;
+}
+.con3 ul li a strong {
+  margin-top: 20px;
+}
+.con3 .more {
+  text-align: center;
+}
+.con3 .more a {
+  border: 1px solid #fff;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  display: block;
+
+  line-height: 50px;
+}
+.con3 .more a span {
+  color: #fff;
+}

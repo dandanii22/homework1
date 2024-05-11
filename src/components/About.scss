@@ -1,0 +1,94 @@
+.con4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 660px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-image: url(http://www.kyungdong.co.kr/ko/front/image/main/main_foot_bg.jpg);
+}
+.con4 .inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.con4 .left {
+  width: 480px;
+  color: #fff;
+}
+.con4 .left h2 {
+  text-align-last: left;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.con4 .left h2 span {
+  display: block;
+  font-weight: 300;
+  text-align-last: left;
+}
+.con4 .left > p {
+  font-size: 20px;
+}
+
+.con4 ul {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.con4 ul li {
+}
+.con4 ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  color: #fff;
+}
+.con4 ul li:nth-child(1) a {
+  background: rgba(207, 107, 39, 0.7);
+}
+.con4 ul li:nth-child(2) a {
+  background: rgba(39, 43, 57, 0.8);
+}
+.con4 ul li:nth-child(3) a {
+  background: rgba(49, 74, 124, 0.8);
+}
+
+.con4 ul li a span {
+}
+.con4 ul li a span img {
+  margin-bottom: 20px;
+}
+
+.con4 ul li a strong {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.con4 ul li a strong span {
+}
+.con4 .more a:hover {
+  border: 1px solid #fff;
+}
+.con4 .more a i {
+  color: #fff;
+}
+
+.con4 .more {
+  text-align: center;
+  margin-top: 50px;
+}
+.con4 .more a {
+  border: 1px solid #fff;
+  height: 50px;
+  width: 230px;
+  border-radius: 30px;
+  display: block;
+  line-height: 50px;
+}
+.con4 .more a span {
+  color: #fff;
+}

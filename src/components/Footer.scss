@@ -1,0 +1,24 @@
+#footer {
+  position: relative;
+
+  background: #131313;
+}
+#footer .inner {
+  margin: auto;
+  width: 1400px;
+  padding: 45px 0;
+}
+#footer p {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.9;
+}
+#footer p:nth-of-type(4) {
+  margin-top: 10px;
+}
+#footer .top {
+  position: absolute;
+  right: 100px;
+  top: -70px;
+}

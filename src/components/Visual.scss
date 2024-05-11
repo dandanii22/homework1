@@ -1,0 +1,89 @@
+#visual {
+  height: 900px;
+  position: relative;
+  /* 스크롤 비쥬얼에 돌아다니기 때문에 해당 위치에 por */
+}
+#visual .main-banner {
+  width: 100%;
+  height: 900px;
+}
+#visual .main-banner li {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  display: none;
+  // display: flex;
+  // align-items: center;
+}
+#visual .main-banner li:nth-child(1) {
+  background-image: url(http://www.kyungdong.co.kr/ko/front/image/main/main01_pc.jpg);
+  display: block;
+}
+#visual .main-banner li:nth-child(2) {
+  background-image: url(http://www.kyungdong.co.kr/ko/front/image/main/main02_pc.jpg);
+}
+#visual .main-banner li:nth-child(3) {
+  background-image: url(http://www.kyungdong.co.kr/ko/front/image/main/main03_pc.jpg);
+}
+#visual .main-banner li:nth-child(4) {
+  background-image: url(http://www.kyungdong.co.kr/ko/front/image/main/main04_pc.jpg);
+}
+
+#visual .main-banner li .txt {
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+#visual .main-banner li .txt h2 {
+  font-size: 50px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#visual .main-banner li .txt h2 + p {
+  font-size: 20px;
+  margin-bottom: 45px;
+}
+#visual .main-banner li .txt .more {
+}
+#visual .main-banner li .txt .more a {
+  color: white;
+  width: 200px;
+  height: 50px;
+  display: block;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+#visual .main-banner li .txt .more a i {
+  vertical-align: middle;
+}
+
+#visual .btn-wrap {
+}
+#visual .btn-wrap .btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+}
+#visual .btn-wrap .prev {
+  left: 130px;
+}
+#visual .btn-wrap .next {
+  right: 250px;
+}
+#visual .mouse {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

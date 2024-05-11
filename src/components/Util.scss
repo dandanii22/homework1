@@ -1,0 +1,27 @@
+.util {
+  display: flex;
+}
+.util .lang {
+  display: flex;
+}
+.util .lang li {
+  margin-right: 20px;
+}
+.util .lang li::after {
+  content: "";
+  margin-right: 0;
+}
+.util .lang li a {
+  color: #999;
+  font-size: 13px;
+  font-weight: 300;
+}
+.util .lang li .on {
+  color: #000;
+}
+.util .all-menu {
+}
+.util .all-menu i {
+  font-size: 30px;
+  vertical-align: middle;
+}

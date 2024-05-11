@@ -1,0 +1,23 @@
+#header {
+  width: 1600px;
+  border: 1px solid #000;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .inner {
+  width: 1400px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header h1 {
+}
